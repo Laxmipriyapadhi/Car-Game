@@ -2,7 +2,7 @@ import pygame
 import random
 
 ##enemy car
-class EnemyCar:
+class Enemycar:
     def __init__(self):
         
         self.speed = 7
@@ -63,7 +63,7 @@ if __name__=='__main__':
 
     pygame.display.set_caption("Car Game")
 
-    enemycar = EnemyCar()
+    enemycar = Enemycar()
     grass = Grass()
     track = Track()
     drawables = (enemycar , grass , track )

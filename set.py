@@ -16,7 +16,7 @@ class Enemycar:
         self.y += self.speed
         if self.y > height:
             self.y = 0
-            self.x = random.randint(120, 120)
+            self.x = random.randint(120, 670)
             
     def draw(self,screen):
         screen.blit(self.car,(self.x,self.y))
